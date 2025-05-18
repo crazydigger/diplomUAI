@@ -4,12 +4,12 @@
 # инсталяция
 * клонируйте проект с git hub git clone url
 * подготовьте виртуальное окружение питон и установите требуемые пакеты pip install -r requirements.txt
-* [зарегистрируйтесь на Comet ML для просмотра процесса обучения] (https://www.comet.com/signup)
+* [зарегистрируйтесь на Comet ML для просмотра процесса обучения](https://www.comet.com/signup)
 * при необходимости (если вы тестируете на Линукс исправьте пути к тренировочным даннмдатасету в файле dataset\dataset.yml
 * внимание! обучение производилось наnvidea rtx Geforce 3080 with 12G памяти если у вас меньше уменьшите размер батча!
 * Размер следующих файлов превышает допустимые для гитнаб загрузите их отдельно в текущую папку:
-* [веса предобученной модели yolov5m] (https://drive.google.com/file/d/1YEtAd-qBaWzYZYNW1f3ELR2irRsDqvR0/view?usp=sharing)
-* [веса обученной модели] (https://drive.google.com/file/d/1QiHryx_4KmehHnG_ljuUO6BCUQWv18wd/view?usp=sharing)
+* [веса предобученной модели yolov5m](https://drive.google.com/file/d/1YEtAd-qBaWzYZYNW1f3ELR2irRsDqvR0/view?usp=sharing)
+* [веса обученной модели](https://drive.google.com/file/d/1QiHryx_4KmehHnG_ljuUO6BCUQWv18wd/view?usp=sharing)
 
 # Предпосылки
 

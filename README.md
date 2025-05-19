@@ -12,7 +12,8 @@
 * [веса обученной модели](https://drive.google.com/file/d/1QiHryx_4KmehHnG_ljuUO6BCUQWv18wd/view?usp=sharing)
   # Обучение
   для обучения запустите команду:
-  ''python .\yolo\train.py --batch 32 --epochs 100 --data  .\dataset\dataset.yaml''
+  ```python .\yolo\train.py --batch 32 --epochs 100 --data  .\dataset\dataset.yaml```
+  **Весь Вывод команды находится в файле output.txt**
   Вот некоторые графики обучения с comet ML
  **Precise vs step** 
 ![image](https://github.com/user-attachments/assets/646e2c20-a197-4f71-b4fa-bc955c9c0ce0)
@@ -20,6 +21,18 @@
   ![image](https://github.com/user-attachments/assets/51561315-d0f0-4e3d-aafc-fc90ae0cd629)
   **GPU memory usage**
   ![image](https://github.com/user-attachments/assets/77ab949b-15b5-499a-9446-8a539f683019)
+# Inference
+Для детектирования объекта запустите команду с любой картинкой из папки test
+```python yolo/detect.py --weights .\best.pt --img 640 --conf 0.25 --source .\dataset\images\test\inclusion.jpg```
+**результатиз папки run\detect\exp**
+![image](https://github.com/user-attachments/assets/0615518d-d1ed-422f-90a3-fae53e86efac)
+Примеры детекта других объектов
+![image](https://github.com/user-attachments/assets/aa6ea87e-1ef4-4926-9d71-e3e358b90ad9)
+![image](https://github.com/user-attachments/assets/b74f797f-0970-415d-8893-12b686fe6d78)
+![image](https://github.com/user-attachments/assets/a59d23d4-5198-4b6e-b40d-c3ef89dc09af)
+
+
+
 
 
 

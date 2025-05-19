@@ -10,7 +10,18 @@
 * Размер следующих файлов превышает допустимые для гитнаб загрузите их отдельно в текущую папку:
 * [веса предобученной модели yolov5m](https://drive.google.com/file/d/1YEtAd-qBaWzYZYNW1f3ELR2irRsDqvR0/view?usp=sharing)
 * [веса обученной модели](https://drive.google.com/file/d/1QiHryx_4KmehHnG_ljuUO6BCUQWv18wd/view?usp=sharing)
+  # Обучение
+  для обучения запустите команду:
+  ''python .\yolo\train.py --batch 32 --epochs 100 --data  .\dataset\dataset.yaml''
+  Вот некоторые графики обучения с comet ML
+ **Precise vs step** 
 ![image](https://github.com/user-attachments/assets/646e2c20-a197-4f71-b4fa-bc955c9c0ce0)
+**loss vs step**
+  ![image](https://github.com/user-attachments/assets/51561315-d0f0-4e3d-aafc-fc90ae0cd629)
+  **GPU memory usage**
+  ![image](https://github.com/user-attachments/assets/77ab949b-15b5-499a-9446-8a539f683019)
+
+
 
 # Предпосылки
 
